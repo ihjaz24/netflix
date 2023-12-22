@@ -17,10 +17,21 @@
 .post{
     max-height: 250px;
     margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
 
+}
+
+.post:hover{
+    transform: scale(1.1);
 }
 
 .smallPost{
     max-height: 150px;
     margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.smallPost:hover{
+    transform: scale(1.1);
 }
